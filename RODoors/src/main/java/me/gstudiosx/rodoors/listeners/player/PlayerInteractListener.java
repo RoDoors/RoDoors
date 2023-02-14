@@ -23,7 +23,7 @@ public class PlayerInteractListener implements Listener {
         InteractEvent interactEvent = new InteractEvent(player, !player.canInteract(), action, event);
 
         if (interactEvent.isCancelled()) {
-            return true;
+            return false;
         }
 
         if (interactEvent.isCanInteract()) {
