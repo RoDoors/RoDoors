@@ -1,0 +1,18 @@
+debug: true
+showcase: true
+
+permissions:
+  interaction: "rodoors.player.interact"
+
+messages:
+  cantInteract:
+    - ""
+    - "§cYou can't do this here"
+    - ""
+
+resource_pack:
+  hash: "https://raw.githubusercontent.com/%s/%s/build/hash.txt" # A 20 character sha1 hash or a URL
+  url: "https://raw.githubusercontent.com/%s/%s/build/Pack.zip"  # A URL to a pack
+
+repo: "RoDoors/TexturePack"
+branch: "main"
