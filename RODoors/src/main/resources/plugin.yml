@@ -1,6 +1,0 @@
-name: RODoors
-version: '${project.version}'
-main: me.gstudiosx.rodoors.RODoors
-api-version: 1.13
-authors: [ GStudiosX, You ]
-description: Rodoors plugin
